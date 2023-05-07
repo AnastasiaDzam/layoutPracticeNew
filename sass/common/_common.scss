@@ -1,0 +1,42 @@
+/* * {
+  outline: 1px solid red;
+} */
+@import "./skeleton.scss";
+@import "./titles.scss";
+@import "./button.scss";
+@import "./text-decoration.scss";
+@import "./form.scss";
+@import "./burger.scss";
+
+.nav {
+
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    cursor: default;
+  }
+}
+
+.strange-cube {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  max-width: 200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  border: 5px solid black;
+  background-color: #444;
+  &::before {
+    content: 'Сайт лопнул :(';
+  }
+  &:active::before {
+    text-align: center;
+    white-space: pre;
+    content: 'Вы нашли\0a пасхалку\0a🎉';
+  }
+}

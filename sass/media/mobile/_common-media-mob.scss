@@ -1,0 +1,18 @@
+@include mobile() {
+  .container {
+    min-width: 300px;
+    max-width: $mobile-container;
+    width: 100%;
+
+    &_shorter {
+      max-width: $mobile-container;
+      width: 100%;
+    }
+  }
+
+  .nav {
+    &__ul {
+      flex-wrap: wrap;
+    }
+  }
+}

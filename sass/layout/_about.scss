@@ -1,0 +1,120 @@
+.about {
+
+  &__nav {
+    padding-bottom: 35px;
+  }
+
+  &__ul {
+    max-width: 654px;
+    width: 100%;
+    font-size: 18px;
+    margin: -13px auto 0 auto;
+  }
+
+  &__li {
+    padding: 11px 25px 10px 25px;
+    overflow: hidden;
+  }
+
+  &__links {
+    display:inline-block;
+    color: #2F2F51;
+    &::before {
+      display: block;
+      content: attr(title);
+      font-weight: 700;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+  }
+
+    &:hover {
+      color: #2F2F51;
+      font-weight: 700;
+    }
+
+    &:active {
+      font-weight: 700;
+    }
+  }
+
+  &__buttons {
+    width: 314px;
+    margin: -50px auto 27px auto;
+  }
+}
+
+.about-list {
+  display: flex;
+  
+  background-color: #fff;
+
+  &_prop {
+    margin-top: -10px;
+    margin-bottom: 73px;
+  }
+
+  &__info {
+    padding-left: 50px;
+    padding-top: 46px;
+    max-width: 46.2%;
+  }
+
+  &__description {
+    margin: 58px 0 0 35.8%;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 52px;
+  }
+
+  &__photo {
+    background-image: url(../images/about/worker-and-window.jpg);
+    width: 50%;
+    height: 460px;
+  }
+}
+
+
+.about-qualities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  &__element {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 110px;
+    width: 30.333%;
+    padding-left: 24px;
+  }
+
+  &__logo {
+    &_pic2 {
+      margin-left: -20px;
+    }
+
+    &_pic6 {
+      margin-right: 10px;
+    }
+  }
+
+  &__info {
+    margin-left: 23px;
+    width: 215px;
+    align-items: baseline;
+  }
+
+  &__title {
+    line-height: 36px;
+    margin-top: -10px;
+  }
+
+  &__description {
+    width: 215px;
+    margin-top: 4px;
+    line-height: 26px;
+  }
+}

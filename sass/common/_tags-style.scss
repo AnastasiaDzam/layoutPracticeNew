@@ -1,0 +1,39 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba($color: #3D3D40, $alpha: 0.05);
+  cursor: default;
+
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: $violet;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $orange;
+  border-radius: 15px;
+  border: 2px solid $violet;
+
+  &:hover {
+    background-color: $dark-orange;
+  }
+
+  &:active {
+    background-color: $darker-orange;
+  }
+}
+
+a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover
+{
+  color: #EF7F04;
+}

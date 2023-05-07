@@ -1,0 +1,36 @@
+.main-page-style  {
+  background: hsla(240, 2%, 25%, 1%);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  &_shorter {
+    min-width: 1032px;
+    max-width: 1032px;
+  }
+}
+
+.header {
+  font-weight: 500;
+  background-color: #FFFFFF;
+  
+
+  &_prop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+}
+
+/* .body {
+  
+} */
+
+/* .footer {
+
+} */

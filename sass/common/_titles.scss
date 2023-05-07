@@ -1,0 +1,42 @@
+.section-title {
+  text-align: center;
+  color: $violet;
+  font-weight: 700;
+  font-size: 24px;
+
+  &_shift {
+    margin-top: 70px;
+    margin-bottom: 46px;
+  }
+
+  &__portfolio {
+    margin-left: -8px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  &__faq {
+    margin-top: 10px;
+    padding-top: 42px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+  }
+}
+
+/* .anchor is used to display anchor links correctly ¯\_(ツ)_/¯ */
+.anchor {
+
+  &_first {
+    height: 100px;
+  }
+
+  &_shift {
+    height: 40px;
+    margin-top: -50px;
+
+    &-faq {
+      height: 100px;
+      margin-top: -110px;
+    }
+  }
+}

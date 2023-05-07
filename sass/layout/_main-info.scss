@@ -1,0 +1,77 @@
+.main-info {
+  background-image: url(../images/main-info/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 1200px;
+
+  &__block {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 65px;
+  }
+  
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0 73px;
+  }
+
+  &__presentation {
+    margin-top: 130px;
+    width: 552px;
+  }
+
+  &__advantages {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px -20px 0 0;
+
+  }
+
+  &__advantage {
+    margin-top: 5px;
+
+    &_up {
+      margin-top: 0;
+    }
+  }
+
+  &__logo {
+    margin-right: 10px;
+
+    &_left {
+      margin-left: -15px;
+      margin-top: 4px;
+      margin-bottom: -4px;
+    }
+
+    &_down {
+      margin-top: 3px;
+      margin-bottom: -3px;
+      margin-left: 3px;
+    }
+  }
+
+      
+  &__order {
+    margin: 69px 0 0 0;
+  }
+
+  &__title {
+    color: $orange;
+    font-size: 24px;
+    font-weight: 700;
+    
+    &_important {
+      display: block; 
+      color: #ffffff; 
+      font-size: 36px;
+      line-height: 42.19px;
+      font-weight: 100;
+      margin-top: 5px;
+    }
+  }
+
+}

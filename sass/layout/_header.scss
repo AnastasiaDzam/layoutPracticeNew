@@ -1,0 +1,46 @@
+.header-menu {
+  padding: 17px 0px;
+  max-width: 1200px;
+  width: 100%;
+  
+  &_prop {
+    margin: 0 auto;
+  }
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__burger {
+    display: none;
+    padding-left: 2px;
+  }
+
+
+  &__ul {
+    flex: 2 0 1200px;
+    align-items: right;
+    width: 660px;
+  }
+
+  &__li {
+    &_prop {
+      line-height: 18px;
+    }
+  }
+
+
+  &__buttons {
+    display: inline-flex;
+    margin-bottom: 2px;
+  }
+
+  &__button {
+    &:last-child {
+      margin-left: 14px;
+      padding-right: 18px;
+    }
+  }
+}
+

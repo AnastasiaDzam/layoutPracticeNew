@@ -1,0 +1,130 @@
+@include mobile() {
+  .header-menu {
+    /* ___________ header ___________ */
+    max-width: $mobile-container;
+    width: 100%;
+    
+    &__buttons {
+      display: none;
+    }
+  }
+
+  /* ___________ main-info ___________ */
+  .main-info{
+    max-width: $bp_tab;
+    width: 100%;
+    min-width: $mobile-container;
+    
+    &__presentation {
+      margin-left: 0;
+      padding-bottom: 25px;
+    }
+
+    &__advantages {
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0 0;
+      gap: 20px 0;
+    }
+    &__advantage {
+      display: flex;
+      justify-content: center;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    &__title {
+      text-align: center;
+    }
+  }
+
+  /* ___________ services ___________ */
+  .element-list {
+    max-width: $mobile-container;
+    padding: 0 0;
+
+    &__top {
+      width: $mobile-container;
+    }
+  }
+  /* ___________ about ___________ */
+  .about {
+
+    &__ul {
+      max-width: $mobile-container;
+      justify-content: space-between;
+    }
+
+    &__li {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .about-list {
+    width: $mobile-container;
+
+    &__info {
+      display: block;
+    }
+
+    &__photo {
+      background-size: cover;
+      background-position: 10%;
+    }
+  }
+  /* ___________ portfolio ___________ */
+
+  .portfolio {
+    &__image {
+      &:nth-last-child(2) {
+        display: none;
+      }
+    }
+    
+    
+  }
+  /* ___________ faq ___________ */
+
+  .faq {
+    &__list {
+      width: calc($mobile-container - 20px);
+    }
+    &__question {
+      padding-right: 40px;
+    }
+  }
+  /* ___________ footer ___________ */
+  .footer {
+    max-width: $bp_mob;
+    min-width: $mobile-container;
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+    &__company {
+      flex-direction: column;
+    }
+    &__ul {
+      flex-direction: column;
+      margin-top: 0;
+    }
+    &__li {
+      white-space:normal;
+      line-height: 20px;
+    }
+    &__text {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width:250px){
+  .header, .main-page-style, .footer {
+    display: none;
+  }
+  .strange-cube {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+@include tablet() {
+  .container {
+    min-width: $mobile-screen;
+    max-width: $tablet-container;
+    width: 100%;
+
+    &_shorter {
+      max-width: $tablet-container;
+      width: 100%;
+    }
+  }
+  .section-title {
+    &__about {
+      margin-left: 0;
+    }
+    &__portfolio {
+      margin-left: 0;
+    }
+  }
+  .nav {
+    &__ul {
+      justify-content: center;
+    }
+  }
+}

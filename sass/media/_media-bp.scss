@@ -1,0 +1,17 @@
+@mixin laptop() {
+  @media screen and (max-width: $bp_lap) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media screen and (max-width: $bp_tab) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media screen and (max-width: $bp_mob) {
+    @content;
+  }
+}
